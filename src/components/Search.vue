@@ -29,21 +29,15 @@
         </div>
       </transition>
       <transition name="custom-classes-transition" enter-active-class="animated fast slideInLeft" leave-active-class="animated fast slideOutLeft">
-        <div class="weather-warp" v-show="isMenus">
-          <div class="weather-menus">
-            <div class="weather-menu gxs-cell gxs-cells-icon">
-              <div class="weather-bd gxs-cell-bd gxs-cell-default"><a href="#">用户登录</a></div>
-              <div class="weather-ft gxs-cell-ft">最后更新：2017-08-01</div>
-            </div>
-            <div class="weather-menu gxs-cell gxs-cells-icon">
-              <div class="weather-bd gxs-cell-bd gxs-cell-default"><a href="#">注册</a></div>
-              <div class="weather-ft gxs-cell-ft"></div>
-            </div>
+        <!-- <div class="weather-warp" v-show="isMenus">
+          <div class="weather">
+           
+          
           </div>
-        </div>
+        </div> -->
       </transition>
       <transition name="custom-classes-transition" enter-active-class="animated fast fadeIn" leave-active-class="animated fast fadeOut">
-        <div class="weather-menus-bg" v-show="isMenus" v-on:click="menus()"></div>
+        <!-- <div class="weather-menus-bg" v-show="isMenus" v-on:click="menus()"></div> -->
       </transition>
     </div>
 
